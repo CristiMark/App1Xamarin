@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="App1Xamarin.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:App1Xamarin">
+
+    <Editor
+        x:Name="InputValue"
+        Margin="0,50,0,0"
+        HorizontalOptions="Center"
+        VerticalOptions="Start"
+        WidthRequest="200" />
+    <Button
+        x:Name="ToASCII"
+        Margin="10,0,0,0"
+        HorizontalOptions="Start"
+        Text="To ASCII"
+        VerticalOptions="Center" />
+    <Button
+        x:Name="ToBinar"
+        Margin="10,0,0,0"
+        HorizontalOptions="Center"
+        Text="To BINAR"
+        VerticalOptions="Center" />
+    <Button
+        x:Name="ToText"
+        Margin="10,0,0,0"
+        HorizontalOptions="End"
+        Text="To Text"
+        VerticalOptions="Center" />
+    <Editor
+        Margin="0,0,0,50"
+        x:FieldModifier="OutputValue"
+        HorizontalOptions="Center"
+        VerticalOptions="End"
+        WidthRequest="200" />
+
+</ContentPage>
